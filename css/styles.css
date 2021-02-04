@@ -1,0 +1,125 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.hero{
+	padding: 150px 0;
+	background: #f8f8f8;
+}
+
+.hero-text-container{
+	padding: 22px 0;
+}
+
+.hero-title{
+	color: #828282;
+	font-weight: 600;
+}
+
+.hero-text{
+	color: #828282;
+}
+
+.cv-bttn{
+	background: #8aacff;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	color: #fff;
+	border-radius: 24px;
+	margin-left: 12px;
+	cursor: pointer;
+}
+
+.about{
+	padding: 90px 0;
+	background: #fff;
+	color: #828282;
+}
+
+.about-title{
+	font-weight: 600;
+}
+
+.about-text{
+	font-weight: 300;
+}
+
+.experience{
+	padding: 80px 0;
+	background: #f8f8f8;
+}
+
+.experience-title{
+	color: #828282;
+	font-weight: 600;
+}
+
+.experience-item-container{
+	padding: 32px 0 15px;
+}
+
+.experience-item-title{
+	color: #8aacff;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.experience-item-position{
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.experience-item-date{
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.contact{
+	padding: 100px 0;
+}
+
+.contact-title{
+	color: #828282;
+	font-weight: 600;
+}
+
+.contact-line-icon{
+	font-size: 25px!important;
+	padding-right: 15px;
+	color: #828282!important;
+}
+
+.footer{
+	padding: 25px 0;
+	background: #8aacff;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.laptop-device{
+	display: inline;
+}
+
+.mobile-device{
+	display: none;
+}
+
+@media(max-width: 991px){
+	.laptop-device{
+		display: none;
+	}
+
+	.mobile-device{
+		display: inline;
+	}
+
+	.hero{
+		padding: 110px 0;
+	}
+
+	.cv-bttn{
+		padding-left: 32px;
+		padding-right: 32px;
+	}
+}
